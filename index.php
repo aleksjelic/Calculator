@@ -11,8 +11,8 @@
 
 <body>
     <div class="container">
-        <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-            <input required type="number" name="number1" placeholder="First number">
+        <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST"> // htmlspecialchars($_SERVER['PHP_SELF']) osigurava da su specijalni HTML znakovi bezbedni za upotrebu unutar html atributa (zastita od XSS-> Cross Site Scripting)
+            <input required type="number" name="number1" placeholder="First number"> // $_SERVER['PHP_SELF'] is currennt script 
             <select name="operator">
                 <option value="add">+</option>
                 <option value="subtract">-</option>
