@@ -1,0 +1,47 @@
+.container{
+    max-width: 600px;
+    height: auto;
+    margin: 50px auto;
+}
+form{   
+   text-align: center;
+   margin-top: 50px;
+}
+form>input, select, button{
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    height: 20px;
+}
+
+input::placeholder{
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.4;
+}
+body{
+    max-width: 1200px;
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+button:hover{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    
+   
+
+}
+p .calc-result{
+    text-align: center;
+}
